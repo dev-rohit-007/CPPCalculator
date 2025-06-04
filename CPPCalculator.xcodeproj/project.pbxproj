@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		56C5ED302DF0227A00413FC7 /* CPPCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPPCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C5ED712DF0482F00413FC7 /* BuildXCFramework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = BuildXCFramework.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -15,6 +16,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			publicHeaders = (
 				CPPCalculator.h,
+				ModelClass.h,
 				ObjCalculatorWrapper.h,
 			);
 			target = 56C5ED2F2DF0227A00413FC7 /* CPPCalculator */;
@@ -46,6 +48,7 @@
 		56C5ED262DF0227A00413FC7 = {
 			isa = PBXGroup;
 			children = (
+				56C5ED712DF0482F00413FC7 /* BuildXCFramework.sh */,
 				56C5ED322DF0227A00413FC7 /* CPPCalculator */,
 				56C5ED312DF0227A00413FC7 /* Products */,
 			);

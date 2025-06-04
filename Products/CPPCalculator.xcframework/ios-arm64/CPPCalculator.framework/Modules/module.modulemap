@@ -1,0 +1,6 @@
+framework module CPPCalculator {
+  umbrella header "CPPCalculator.h"
+  export *
+
+  module * { export * }
+}
