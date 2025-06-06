@@ -43,4 +43,12 @@
     }
     return _calculator->divide(a, b);
 }
+
+- (void)setCallbackHandler:(void (^)(BOOL success, NSString *message))handler {
+    _calculator->setCallback([handler](bool success, std::string message) {
+        NSLog(@"Callback received: %@", [NSString stringWithUTF8String:message.c_str()]);
+        NSString *nsMessage = [NSString stringWithUTF8String:message.c_str()];
+        handler(success, nsMessage);
+    });
+}
 @end

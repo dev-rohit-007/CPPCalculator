@@ -18,6 +18,9 @@
 @property (nonatomic, strong) NSString *modelName;
 @property (nonatomic, strong) NSString *modelVersion;
 
+- (instancetype)init NS_UNAVAILABLE;
+- (instancetype)init:(NSString *)modelName withVersion:(NSString *)modelVersion NS_DESIGNATED_INITIALIZER;
 - (NSString *)getModelVersion;
 - (NSString *)getModelName;
+- (void)computeModelUniqueIdentifier:(void (^)(NSString *))completion;
 @end

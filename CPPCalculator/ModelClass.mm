@@ -24,4 +24,7 @@
     return self.modelVersion;
 }
 
+- (void)computeModelUniqueIdentifier:(void (^)(NSString *))completion {
+    
+}
 @end
