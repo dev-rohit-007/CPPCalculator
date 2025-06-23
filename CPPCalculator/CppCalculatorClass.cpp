@@ -50,4 +50,3 @@ double CppCalculatorClass::divide(double a, double b) {
 void CppCalculatorClass::setCallback(std::function<void(bool, std::string)> callback) {
     privateCallback = callback;
 }
-

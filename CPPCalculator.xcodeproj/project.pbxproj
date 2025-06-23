@@ -16,8 +16,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			publicHeaders = (
 				CPPCalculator.h,
-				ModelClass.h,
-				ObjCalculatorWrapper.h,
 			);
 			target = 56C5ED2F2DF0227A00413FC7 /* CPPCalculator */;
 		};
@@ -147,7 +145,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GSL7Q446RS;
+				DEVELOPMENT_TEAM = K6FZYUHLAF;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -182,7 +180,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GSL7Q446RS;
+				DEVELOPMENT_TEAM = K6FZYUHLAF;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
